@@ -13,12 +13,6 @@
 	  <arg name="rviz" value="false"/>
   </include>
 
-  <!-- PointCloud to PCD Node -->
-  <node pkg="pcl_ros" type="pointcloud_to_pcd" name="pointcloud_to_pcd" output="screen">
-    <param name="~cloud_topic" value="/velodyne_points"/>
-    <param name="~output_dir" value="/home/canoe/putn_ws/pcd"/>
-  </node>
-  
   <node pkg="tf" type="static_transform_publisher" name="world_to_camera_init" args="0 0 0 0 0 0 /world /camera_init 10" /><!--10ms-->
   <node pkg="tf" type="static_transform_publisher" name="camera_to_link" args="0 0 -0.4 0 0 0 /aft_mapped /base_link 10" />
 
