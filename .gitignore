@@ -1,0 +1,6 @@
+*.log
+.idea/*
+build/
+devel/
+.vscode/
+pcd/
