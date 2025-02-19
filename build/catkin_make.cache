@@ -1,0 +1,2 @@
+A-LOAM:putn/src/putn/putn_gpr:putn/src/putn/putn_launch:putn/src/putn/putn_map:putn/src/putn/putn_mpc:putn/src/putn/putn_planning:putn/src/putn/putn_rviz_plugins:putn/src/putn/putn_waypoint_generator:putn/src/scout_simulator/scout_control:putn/src/scout_simulator/scout_description:putn/src/scout_simulator/scout_gazebo_sim
+-DCATKIN_DEVEL_PREFIX=/home/canoe/putn_ws/devel -DCMAKE_INSTALL_PREFIX=/home/canoe/putn_ws/install -G Unix Makefiles
